@@ -1,1 +1,1 @@
-document.querySelectorAll('.speed').playbackRate = 5.0;
+document.querySelectorAll('video').forEach(function(el, i) { el.playbackRate = 5.25; });
