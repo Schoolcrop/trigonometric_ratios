@@ -1,7 +1,47 @@
 .con {
     color: black;
+    align-items: center;
+}
+
+.nav-link {
+    color: #2D5A27;
+}
+
+.nav-link:hover {
+    color:#a7171a;
+}
+
+.active {
+    color: antiquewhite;
+}
+
+.needs_iframe {
+    width: 100% !important;
+    height: 80vh !important;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .elem {
     margin-top: 1rem;
+    align-items: center;
+}
+
+.foot {
+    background-color: #8c92ac;
+    color: antiquewhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
 }

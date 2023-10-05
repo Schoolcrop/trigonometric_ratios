@@ -5,32 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trigonometric ratios</title>
     <link rel="icon" type="image/x-icon" href="img/Flv.svg">
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
 </head>
 <body>
-       <nav class="navbar bg-warning" data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="img/logo-schoolcrop.png" alt="Bootstrap" width="20%" height="20%">
-            </a>
-            <a class="navbar-brand con">Trigonometric ratios</a>
-        </div>
-      </nav>
-      
+  <nav class="navbar bg-warning" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-schoolcrop.png" alt="Bootstrap" width="20%" height="20%">
+        </a>
+        <a class="navbar-brand con">Trigonometric ratios</a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link alt" href="/index.html">videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link alt" href="/Interactives.html">Interactives</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
 
-      <div class="container elem">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="container elem">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card" style="width: 17rem;">
+          <video class="speed" controls controlsList="nodownload">
+              <source src="videos/sin_H.mp4" type="video/mp4"> 
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">sin_H</h5>
+            <p class="card-text">Content</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 17rem;">
+            <video class="speed" controls controlsList="nodownload">
+                <source src="videos/sin_V.mp4" type="video/mp4"> 
+            </video>
+            <div class="card-body">
+              <h5 class="card-title">sin_V</h5>
+              <p class="card-text">Content</p>
+            </div>
+          </div>
+      </div>
         <div class="col">
           <div class="card" style="width: 17rem;">
             <video class="speed" controls controlsList="nodownload">
-                <source src="videos/sin_H.mp4" type="video/mp4"> 
+                <source src="videos/cos_H.mp4" type="video/mp4"> 
             </video>
             <div class="card-body">
-              <h5 class="card-title">sin_H</h5>
+              <h5 class="card-title">cos_H</h5>
+              <p class="card-text">Content</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 17rem;">
+            <video class="speed" controls controlsList="nodownload">
+                <source src="videos/cos_V.mp4" type="video/mp4"> 
+            </video>
+            <div class="card-body">
+              <h5 class="card-title">cos_V</h5>
+              <p class="card-text">Content</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 17rem;">
+            <video class="speed" controls controlsList="nodownload">
+                <source src="videos/tan.mp4" type="video/mp4"> 
+            </video>
+            <div class="card-body">
+              <h5 class="card-title">tan</h5>
               <p class="card-text">Content</p>
             </div>
           </div>
@@ -38,10 +88,10 @@
         <div class="col">
             <div class="card" style="width: 17rem;">
               <video class="speed" controls controlsList="nodownload">
-                  <source src="videos/sin_V.mp4" type="video/mp4"> 
+                  <source src="videos/csc.mp4" type="video/mp4"> 
               </video>
               <div class="card-body">
-                <h5 class="card-title">sin_V</h5>
+                <h5 class="card-title">csc</h5>
                 <p class="card-text">Content</p>
               </div>
             </div>
@@ -49,10 +99,10 @@
           <div class="col">
             <div class="card" style="width: 17rem;">
               <video class="speed" controls controlsList="nodownload">
-                  <source src="videos/cos_H.mp4" type="video/mp4"> 
+                  <source src="videos/sec.mp4" type="video/mp4"> 
               </video>
               <div class="card-body">
-                <h5 class="card-title">cos_H</h5>
+                <h5 class="card-title">sec</h5>
                 <p class="card-text">Content</p>
               </div>
             </div>
@@ -60,21 +110,10 @@
           <div class="col">
             <div class="card" style="width: 17rem;">
               <video class="speed" controls controlsList="nodownload">
-                  <source src="videos/cos_V.mp4" type="video/mp4"> 
+                  <source src="videos/cot.mp4" type="video/mp4"> 
               </video>
               <div class="card-body">
-                <h5 class="card-title">cos_V</h5>
-                <p class="card-text">Content</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 17rem;">
-              <video class="speed" controls controlsList="nodownload">
-                  <source src="videos/tan.mp4" type="video/mp4"> 
-              </video>
-              <div class="card-body">
-                <h5 class="card-title">tan</h5>
+                <h5 class="card-title">cot</h5>
                 <p class="card-text">Content</p>
               </div>
             </div>
@@ -82,32 +121,10 @@
           <div class="col">
               <div class="card" style="width: 17rem;">
                 <video class="speed" controls controlsList="nodownload">
-                    <source src="videos/csc.mp4" type="video/mp4"> 
+                    <source src="videos/sin & cos.mp4" type="video/mp4"> 
                 </video>
                 <div class="card-body">
-                  <h5 class="card-title">csc</h5>
-                  <p class="card-text">Content</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" style="width: 17rem;">
-                <video class="speed" controls controlsList="nodownload">
-                    <source src="videos/sec.mp4" type="video/mp4"> 
-                </video>
-                <div class="card-body">
-                  <h5 class="card-title">sec</h5>
-                  <p class="card-text">Content</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" style="width: 17rem;">
-                <video class="speed" controls controlsList="nodownload">
-                    <source src="videos/cot.mp4" type="video/mp4"> 
-                </video>
-                <div class="card-body">
-                  <h5 class="card-title">cot</h5>
+                  <h5 class="card-title">sin & cos</h5>
                   <p class="card-text">Content</p>
                 </div>
               </div>
@@ -115,48 +132,37 @@
             <div class="col">
                 <div class="card" style="width: 17rem;">
                   <video class="speed" controls controlsList="nodownload">
-                      <source src="videos/sin & cos.mp4" type="video/mp4"> 
+                      <source src="videos/tan & sec.mp4" type="video/mp4"> 
                   </video>
                   <div class="card-body">
-                    <h5 class="card-title">sin & cos</h5>
+                    <h5 class="card-title">tan & sec</h5>
                     <p class="card-text">Content</p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                  <div class="card" style="width: 17rem;">
-                    <video class="speed" controls controlsList="nodownload">
-                        <source src="videos/tan & sec.mp4" type="video/mp4"> 
-                    </video>
-                    <div class="card-body">
-                      <h5 class="card-title">tan & sec</h5>
-                      <p class="card-text">Content</p>
-                    </div>
+                <div class="card" style="width: 17rem;">
+                  <video class="speed" controls controlsList="nodownload">
+                      <source src="videos/cot & csc.mp4" type="video/mp4"> 
+                  </video>
+                  <div class="card-body">
+                    <h5 class="card-title">cot & csc</h5>
+                    <p class="card-text">Content</p>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card" style="width: 17rem;">
-                    <video class="speed" controls controlsList="nodownload">
-                        <source src="videos/cot & csc.mp4" type="video/mp4"> 
-                    </video>
-                    <div class="card-body">
-                      <h5 class="card-title">cot & csc</h5>
-                      <p class="card-text">Content</p>
-                    </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 17rem;">
+                  <video class="speed" controls controlsList="nodownload">
+                      <source src="videos/final all.mp4" type="video/mp4"> 
+                  </video>
+                  <div class="card-body">
+                    <h5 class="card-title">All together</h5>
+                    <p class="card-text">Content</p>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card" style="width: 17rem;">
-                    <video class="speed" controls controlsList="nodownload">
-                        <source src="videos/final all.mp4" type="video/mp4"> 
-                    </video>
-                    <div class="card-body">
-                      <h5 class="card-title">All together</h5>
-                      <p class="card-text">Content</p>
-                    </div>
-                  </div>
-                </div>
-      </div>
+              </div>
     </div>
+  </div>      
 </body>
 </html>
