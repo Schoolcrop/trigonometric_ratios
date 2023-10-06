@@ -13,7 +13,7 @@ document.querySelectorAll('video').forEach(function(el, i) { el.playbackRate = 5
 
 
 
-var files = ['./interactive/snippet-1.html, ./interactive/snippet-2.html, ./interactive/snippet-3.html, ./interactive/snippet-4.html', ]; // List of HTML files to display
+var files = ['https://schoolcrop.github.io/sine_cosine/, https://schoolcrop.github.io/cosec_cotangent/, https://schoolcrop.github.io/Secant_Tangent/, https://schoolcrop.github.io/Trigonometry/', ]; // List of HTML files to display
 
 var index = 0; // Current index of the file being displayed
 
